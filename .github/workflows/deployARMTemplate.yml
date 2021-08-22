@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+      - main
 env:
   AZURE_SUBSCRIPTION_ID: e0405662-5d40-4a9d-83c8-f7a279fbdbbc   # set this to your Azure Subscription Id
   AZURE_RESOURCE_GROUP: GitHubActionExercise-rg   # set this to your target resource group
